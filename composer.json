@@ -25,5 +25,12 @@
     "psr-4": {
       "InsightMedia\\Geocoding\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "InsightMedia\\Geocoding\\GeocodingServiceProvider"
+      ]
+    }
   }
 }
