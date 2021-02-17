@@ -1,5 +1,5 @@
 {
-  "name": "xabou/google-geocoding",
+  "name": "insight-media/google-geocoding",
   "description": "Google Geocoding API integration for Laravel",
   "keywords": [
     "laravel",
@@ -9,6 +9,9 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "insight-media"
+    },
     {
       "name": "xabou",
       "email": "bouzopoulos@gmail.com"
@@ -20,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Xabou\\Geocoding\\": "src/"
+      "InsightMedia\\Geocoding\\": "src/"
     }
   }
 }

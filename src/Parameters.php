@@ -1,6 +1,6 @@
 <?php
 
-namespace Xabou\Geocoding;
+namespace InsightMedia\Geocoding;
 
 class Parameters
 {

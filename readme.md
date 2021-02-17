@@ -9,16 +9,16 @@ This package provides a wrapper around Google Geocoding API for your Laravel app
 ## Installation
 
 #### 1. Require via composer
-Add the `xabou/google-geocoding` Composer dependency to your project.
+Add the `insight-media/google-geocoding` Composer dependency to your project.
 ```
-composer require xabou/google-geocoding
+composer require insight-media/google-geocoding
 ```
 
 #### 2. Register Service Provider
 Open `config/app.php` and append `providers` array with:
 
 ```
-Xabou\Geocoding\GeocodingServiceProvider::class
+InsightMedia\Geocoding\GeocodingServiceProvider::class
 ```
 ## Usage
 
